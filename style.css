@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header,
+footer,
+section {
+    padding: 5%;
+    border: 1px solid lightgray;
+}
+.padded-1 {
+    padding: 1rem;
+}
+
+.intro {
+    text-transform: uppercase;
+    background-color: lightgray;
+}
+
+.tag {
+    border: 1px solid teal;
+    color: teal;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .2rem;
+    border-radius: 3px;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: .8rem;
+}
+/* Background Image Styles */
+.bg-img {
+    background-size: cover;
+    background-position: center;
+}
+
+.square {
+    padding-bottom: 100%;
+}
+
+.landscape {
+    padding-bottom: 67%;
+}
