@@ -3,8 +3,15 @@ layout: post
 title: My third post
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
 author: Catherine
-categories: [self care, bali]
+featured: true
+categories: [self care, life, bali]
 featured_image: https://www.instituteofcode.com/houdini.jpg
+seo:
+ title:
+ description:
+ social_image:
+ keywords:
+ hide-from-google: false
 ---
 
 ## Adventures in Bali

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: My first post
+title: My fifth post
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
 author: Tina
 featured: true
-categories: [travel, bali]
+categories: [travel, life, bali]
 featured_image: https://www.instituteofcode.com/houdini.jpg
 seo:
  title:
