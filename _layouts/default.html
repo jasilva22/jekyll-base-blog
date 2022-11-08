@@ -6,12 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!---------------- SEO Metadata ------------------------->
+    <title>{{page.title}}</title>
+
+    
+    <!------------  Social media sharing META Tags ------------>
+    <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
+    <meta property="og:description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}"> 
+    <meta property="og:image" content="{{ page.seo.social_image | default: site.data.site-settings.seo.social_image }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:card" content="{{ page.seo.twitter_card | default: site.data.site-settings.seo.twitter_card }}">
+    <meta name="og:site_name" content="{{ site.data.site-settings.seo.site_name }}">
+    <link rel="icon" type="image/png" href="{{ site.data.site-settings.seo.favicon_image }}">
+
+    <!------------ Pinterest Meta Tags ------------>
+    <meta property="article:author" content="{{ page.author | default: site.seo.author }}" />
+
     <!-- gridlex -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
     <!-- custom stylesheet -->
     <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title>{{page.title}}</title>
+
 </head>
 
 <body>
